@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32711.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Impl", "Impl", "{74E5EAF0-C912-474C-8BC7-54AFE42AEF64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C7734B7F-3FA9-4424-94A5-4BD9207A74F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{B49DBB61-363C-4C1C-BF85-E03778F71031}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdown.Setup", "Setup\Markdown.Setup.csproj", "{C5B5430A-9001-463E-9F13-EFC08CF3A91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE9A5F79-8806-45D1-BE75-851CF0C5E787}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Telemetry.md = Telemetry.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdown.Tests", "Test\Markdown.Tests.csproj", "{65FB2D0E-857C-4B8B-B748-5592B4EF9E85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdown.Core", "Impl\Markdown.Core\Markdown.Core.csproj", "{6FA195B6-4314-45CA-9055-9652F8B25622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdown.Platform", "Impl\Markdown.Platform\Markdown.Platform.csproj", "{B839747B-3E7D-4465-8BB0-1E989945449E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manual tests", "Manual tests", "{B66F52E7-3680-47F9-B0EC-9D211055C436}"
+	ProjectSection(SolutionItems) = preProject
+		Test\Manual tests\Manual test plan.md = Test\Manual tests\Manual test plan.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{2D3FA0CE-B986-4F33-8E52-8F3AE80E6843}"
+	ProjectSection(SolutionItems) = preProject
+		Test\Manual tests\Resources\file1.md = Test\Manual tests\Resources\file1.md
+		Test\Manual tests\Resources\file2.md = Test\Manual tests\Resources\file2.md
+		Test\Manual tests\Resources\file3.md = Test\Manual tests\Resources\file3.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B5430A-9001-463E-9F13-EFC08CF3A91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B5430A-9001-463E-9F13-EFC08CF3A91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B5430A-9001-463E-9F13-EFC08CF3A91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B5430A-9001-463E-9F13-EFC08CF3A91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FB2D0E-857C-4B8B-B748-5592B4EF9E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FB2D0E-857C-4B8B-B748-5592B4EF9E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FB2D0E-857C-4B8B-B748-5592B4EF9E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FB2D0E-857C-4B8B-B748-5592B4EF9E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA195B6-4314-45CA-9055-9652F8B25622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA195B6-4314-45CA-9055-9652F8B25622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA195B6-4314-45CA-9055-9652F8B25622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA195B6-4314-45CA-9055-9652F8B25622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B839747B-3E7D-4465-8BB0-1E989945449E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B839747B-3E7D-4465-8BB0-1E989945449E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B839747B-3E7D-4465-8BB0-1E989945449E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B839747B-3E7D-4465-8BB0-1E989945449E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5B5430A-9001-463E-9F13-EFC08CF3A91C} = {B49DBB61-363C-4C1C-BF85-E03778F71031}
+		{65FB2D0E-857C-4B8B-B748-5592B4EF9E85} = {C7734B7F-3FA9-4424-94A5-4BD9207A74F6}
+		{6FA195B6-4314-45CA-9055-9652F8B25622} = {74E5EAF0-C912-474C-8BC7-54AFE42AEF64}
+		{B839747B-3E7D-4465-8BB0-1E989945449E} = {74E5EAF0-C912-474C-8BC7-54AFE42AEF64}
+		{B66F52E7-3680-47F9-B0EC-9D211055C436} = {C7734B7F-3FA9-4424-94A5-4BD9207A74F6}
+		{2D3FA0CE-B986-4F33-8E52-8F3AE80E6843} = {B66F52E7-3680-47F9-B0EC-9D211055C436}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84EB894F-B669-4E00-A82F-23B8FABD6E28}
+	EndGlobalSection
+EndGlobal
